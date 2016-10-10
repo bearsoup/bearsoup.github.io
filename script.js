@@ -3,7 +3,7 @@ var city;
 var desc;
 
 function adjgen() {
-  var adjArray = ["Amazing", "Fabulous", "Fantastic", "Classy", "Super-classy", "Tremendous", "Great", "Glorious", "Beautiful", "Big, beautiful", "Valuable", "Awesome", "Charming", "Terrific", "Super-luxury", "Crazy-awesome", "Unbelievable", "Very, very strong", "Clean", "Hunky-dory", "Groovy", "Exquisite", "Extraordinary", "Wealthy", "Brilliant"];
+  var adjArray = ["Amazing", "Fabulous", "Fantastic", "Classy", "Super-classy", "Tremendous", "Great", "Glorious", "Beautiful", "Big, beautiful", "Valuable", "Awesome", "Charming", "Terrific", "Super-luxury", "Crazy-awesome", "Unbelievable", "Very, very strong", "Clean", "Hunky-dory", "Groovy", "Exquisite", "Extraordinary", "Wealthy", "Brilliant", "Phenomenal", "So-good"];
   var x = Math.floor(Math.random() * adjArray.length);
   adj = adjArray[x];
 }
